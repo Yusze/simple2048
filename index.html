@@ -1,0 +1,63 @@
+<!DOCTYPE html
+<html
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <title>2048</title>
+    <meta name="keywords" content="2048 Game" />
+    <meta name="description" content="2048 Game" />  
+    <link href="./css/main.css" rel="stylesheet" type="text/css">
+    <meta name="viewport" content="width=device-width,  initial-scale=1.0, maximum-scale=1, user-scalable=no">
+  </head>
+
+  <body>
+  <div class="container" id="container">
+    <div class="heading">
+      <h1 class="title">2048</h1>
+    </div>
+
+    <div class="score-container"><span>得分:</span><span id="score">0</span></div>
+    
+    <div class="game-container">
+      <div class="game-message">
+        <p>Game Over!</p>
+      </div>
+      <div class="grid-container">
+        <div class="grid-row">
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+        </div>
+        <div class="grid-row">
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+        </div>
+        <div class="grid-row">
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+        </div>
+        <div class="grid-row">
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+        </div>
+      </div>
+
+      <div class="tile-container">
+      </div>
+      
+    </div>
+    <div class="above-game">
+      <a class="restart-button" href="javascript:newGame();">新游戏</a>
+    </div>
+  </div>
+
+  <script src="./js/main.js"></script>
+  </body>
+</html>
